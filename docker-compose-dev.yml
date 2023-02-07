@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  auction-web:
+    restart: always
+    image: registry.cn-shenzhen.aliyuncs.com/yding/auction_web:develop_ts
+    container_name: auction-web
+    ports:
+      - 8012:80
